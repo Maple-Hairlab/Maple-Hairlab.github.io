@@ -431,3 +431,10 @@ footer p {
     font-size: 0.85rem;
   }
 }
+
+/* Hide default Jekyll theme header navbar */
+header.site-header,
+.site-header,
+header {
+  display: none !important;
+}
